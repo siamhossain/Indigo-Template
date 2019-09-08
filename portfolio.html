@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    
+        <header>
+                <div class="container">
+                    <div class="topbar">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                                <div class="contact-info">
+                                    <ul class="contact-info-list">
+                                        <li class="contact-email">
+                                            <a href="#"><i class="fa fa-envelope-o"></i> Info@indigo.com</a>
+                                        </li>
+                                        <li class="contact-phone">
+                                            <a href="#"><i class="fa fa-phone"></i> +123 456 789</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="topbar-social-area">
+                                    <div class="language">
+                                        <div class="language-item">
+                                            <a href="#">EN</a>
+                                        </div>
+                                        <div class="language-item">
+                                            <a href="#">EU</a>
+                                        </div>
+                                    </div>
+                                    <div class="social-icons">
+                                        <ul class="social-icon-list">
+                                            <li class="social-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li class="social-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li class="social-item"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li class="social-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li class="social-item"><a href="#"><i class="fa fa-tumblr"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-wrap">
+                        <div class="logo">
+                            <a href="#"><img src="assets/Indigo-images/logo-vertical.svg" /></a>
+                        </div>
+                        <div class="topnav">
+                            <ul class="nav-menu-list" id="mynav">
+                                <li class="header-menu-item drop-down drop"><a href="#" class="active">HOME</a>
+                                    <ul class="drop-down-menu-list">
+                                        <li class="drop-down-menu-list-item cool-link"><a class="" href="#">Agency</a></li>
+                                        <li class="drop-down-menu-list-item cool-link"><a class="" href="#">Classic</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">PRODUCT</a></li>
+                                <li class="header-menu-item drop-down drop"><a href="#">PAGES</a>
+                                    <ul class="drop-down-menu-list">
+                                        <li class="drop-down-menu-list-item cool-link"><a class="" href="about.html">About</a></li>
+                                        <li class="drop-down-menu-list-item cool-link"><a class="" href="service.html">Service</a></li>
+                                        <li class="drop-down-menu-list-item cool-link"><a class="" href="blog.html">Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">BLOG</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                            </ul>
+                        </div>
+                        <a class="bar-icon" href="javascript:void(0);" onclick="myFunction()">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                        <div class="header-info-area">
+                            <ul class="header-info-list">
+                                <li class="header-info-item"><a href="#" class=""><i class="fas fa-search"></i></a></li>
+                                <li class="header-info-item"><a href="#" class=""><i class="fas fa-shopping-cart"></i></a>
+                                    <span class="cart-item-count">0</span>
+                                </li>
+                                <li class="header-info-item"><a href="#" class=""><i class="far fa-user"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        
+            <section class="hero-section">
+                <div class="hero-slider-wrap">
+                    <div class="about-hero-cover">
+                    </div>
+                </div>
+            </section>
+        
+            <section class="portfolio-isotope-section">
+                <div class="container">
+                    <div class="portfolio-full-wrap">
+                        
+                        <div class="top-headline-area">
+                            <p>Portfolio</p>
+                            <h2>Our Project</h2>
+                            <h3>Brand Defining Ideas, <strong>Bring the Passion</strong></h3>
+                        </div>
+                        
+                        
+                        <div class="portfolio-menu">
+                            <ul>
+                                <li class="active" data-filter="*">All</li>
+                                <li  data-filter=".UI">User Interface</li>
+                                <li  data-filter=".CD">Content Design</li>
+                                <li  data-filter=".UE">User Experience</li>
+                                <li  data-filter=".BR">Branding</li>
+                                <li  data-filter=".GM">Gaming</li>
+                            </ul>
+                        </div>
+
+                        <div class="row portfolio-item">
+                            <div class="col-md-7 item UI">
+                                <div class="portfolio-single-content-area">
+                                    <div class="portfolio-single-content-wrap">
+                                        <div class="portfolio-image">
+                                            <a href="portfolio-details.html"><img src="assets/Indigo-images/portfolio-images/p-bitmap-7.jpg"/></a>
+                                        </div>
+                                        <div class="portfolio-text-area">
+                                            <div class="portfolio-txt">
+                                                <p>Acer</p>
+                                                <h3>Snake with flowers illustratio</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 item CD">
+                                <div class="portfolio-single-content-area">
+                                    <div class="portfolio-single-content-wrap">
+                                        <div class="portfolio-image">
+                                            <a href="portfolio-details.html"><img src="assets/Indigo-images/portfolio-images/p-bitmap-3.jpg"/></a>
+                                        </div>
+                                        <div class="portfolio-text-area">
+                                            <div class="portfolio-txt">
+                                                <p>Cocacola</p>
+                                                <h3>Hand drawn bike delivery concept</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5  item UE">
+                                <div class="portfolio-single-content-area">
+                                    <div class="portfolio-single-content-wrap">
+                                        <div class="portfolio-image">
+                                            <a href="portfolio-details.html"><img src="assets/Indigo-images/portfolio-images/p-bitmap-2.png"/></a>
+                                        </div>
+                                        <div class="portfolio-text-area">
+                                            <div class="portfolio-txt">
+                                                <p>Airbnb</p>
+                                                <h3>Coworking set with problem</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7 item BR">
+                                <div class="portfolio-single-content-area">
+                                    <div class="portfolio-single-content-wrap">
+                                        <div class="portfolio-image">
+                                            <a href="portfolio-details.html"><img src="assets/Indigo-images/portfolio-images/p-bitmap-4.jpg"/></a>
+                                        </div>
+                                        <div class="portfolio-text-area">
+                                            <div class="portfolio-txt">
+                                                <p>Acer</p>
+                                                <h3>Adwords Keyword Research For Beginners</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-7 item GM">
+                                <div class="portfolio-single-content-area">
+                                    <div class="portfolio-single-content-wrap">
+                                        <div class="portfolio-image">
+                                            <a href="portfolio-details.html"><img src="assets/Indigo-images/portfolio-images/p-bitmap-5.jpg"/></a>
+                                        </div>
+                                        <div class="portfolio-text-area">
+                                            <div class="portfolio-txt">
+                                                <p>Acer</p>
+                                                <h3>Adwords Keyword Research For Beginners</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 item UI">
+                                <div class="portfolio-single-content-area">
+                                    <div class="portfolio-single-content-wrap">
+                                        <div class="portfolio-image">
+                                            <a href="portfolio-details.html"><img src="assets/Indigo-images/portfolio-images/p-bitmap-1.jpg"/></a>
+                                        </div>
+                                        <div class="portfolio-text-area">
+                                            <div class="portfolio-txt">
+                                                <p>Cocacola</p>
+                                                <h3>Hand drawn bike delivery concept</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="pagination-part">
+                    <div class="container">            
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:">1</a></li>
+                                <li class="page-item"><a class="page-link" href="javascript:">2</a></li>
+                                <li class="page-item"><a class="page-link" href="javascript:">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="javascript:">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+        
+
+            <section class="purpose-section">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="purpose-text-content">
+                                    <p>OUR PURPOSE</p>
+                                    <h3>A Starter Guide To Self Improvement</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="purpose-btn-content">
+                                    <a href="#" class="button feature-btn">GeT Start</a>
+                                    <a href="#" class="button brand-btn">Work With Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer class="footer-section">
+                    <div class="container">
+                        <div class="footer-top">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="footer-list-wrap">
+                                        <ul class="footer-list">
+                                            <li class="footer-list-item"><a href="#">Work </a></li>
+                                            <li class="footer-list-item"><a href="#">Blog </a></li>
+                                            <li class="footer-list-item"><a href="#">About </a></li>
+                                            <li class="footer-list-item"><a href="#">Portfolio</a></li>
+                                            <li class="footer-list-item"><a href="#">Clients</a></li>
+                                            <li class="footer-list-item"><a href="#">Contact Us</a></li>
+                                            <li class="footer-list-item"><a href="#">Services</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="contact-info-content">
+                                        <h4 class="footer-heading">Contact Info</h4>
+                                        <div class="footer-text-content">
+                                            <p>2808 W Hatton St, Pensacola, FL, 32505</p>
+                                            <a href="#">Support@indigo.com</a> 
+                                        </div>
+                                        <div class="footer-social-icons">
+                                            <div class="social-icons">
+                                                <ul class="social-icon-list">
+                                                    <li class="social-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li class="social-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li class="social-item"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                                    <li class="social-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                    <li class="social-item"><a href="#"><i class="fa fa-tumblr"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4 class="footer-heading">Subscribe to our newsletter</h4>
+                                    <div class="footer-newslatter">
+                                        <input type="text" placeholder="Enter Email Address" >
+                                        <button class="newslatter-submit-btn" type="submit"><i class="fas fa-envelope"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="copyright">
+                                        <img src="assets/Indigo-images/group-12.png">
+                                        <p> © 2013-2019. All Rights Reserved. </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="designed-by">
+                                        <p>Design & Development By JoomShaper</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
+    </script>
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="assets/indigo.js"></script>
+</body>
+</html>
